@@ -2,6 +2,22 @@
 
 A cross-platform (macOS + Windows) **menu-bar / tray clipboard history manager**. Electron + React + TypeScript renderer, plain-JS Electron main process, local persistence via `electron-store`. On macOS it runs as a menu-bar-only app (no Dock icon, via `LSUIElement`).
 
+---
+
+## 🚀 Quick Download
+
+Select the package that matches your operating system and architecture below to download the latest executable:
+
+| Operating System | Architecture | Download Link |
+| :--- | :--- | :--- |
+| **Windows** | 64-bit (x64) | [Download for Windows](https://github.com/Kailashw/DZClip/releases/download/v1.0.0/dzclip-windows-amd64.exe) |
+| **macOS** | Intel (x64) / Apple Silicon (M1/M2/M3) | [Download for macOS](https://github.com/Kailashw/DZClip/releases/download/v1.0.0/dzclip-darwin.dmg) |
+| **Linux** | 64-bit (x64) | [Download for Linux](https://github.com/Kailashw/DZClip/releases/download/v1.0.0/dzclip-linux-amd64.tar.gz) |
+
+> 💡 *Note: If you are on macOS and encounter a "Developer Cannot be Verified" warning, you can bypass it by right-clicking the app, selecting **Open**, and confirming.*
+
+---
+
 ## What's implemented
 
 - **Clipboard history** — polls the system clipboard every 600ms, dedupes (bumping a per-item copy count), stores locally
