@@ -2,16 +2,6 @@
 
 A cross-platform (macOS + Windows) **menu-bar / tray clipboard history manager**. Electron + React + TypeScript renderer, plain-JS Electron main process, local persistence via `electron-store`. On macOS it runs as a menu-bar-only app (no Dock icon, via `LSUIElement`).
 
-## 📥 Download Links
-
-Click the links below to download the latest stable release for your operating system:
-
-| Operating System | Download Link | File Type |
-| :--- | :--- | :--- |
-| **Windows** (64-bit) | [Download for Windows](https://drive.google.com/file/d/1H_yOniK-iHcb1jd5wl_0EU_A0-UW09lk/view?usp=drive_link) | `.exe` / `.msi` |
-| **macOS** (Intel / Apple Silicon) | [Download for macOS](https://drive.google.com/file/d/194LV5ww9VUuhgllPcTKdD0fiqliAqACv/view?usp=sharing) | `.dmg` / `.zip` |
-
-
 ## What's implemented
 
 - **Clipboard history** — polls the system clipboard every 600ms, dedupes (bumping a per-item copy count), stores locally
