@@ -6,13 +6,12 @@ A cross-platform (macOS + Windows) **menu-bar / tray clipboard history manager**
 
 ## 🚀 Quick Download
 
-Select the package that matches your operating system and architecture below to download the latest executable:
+Select the installer that matches your operating system. You can verify the integrity of your download using the provided SHA-256 checksums.
 
-| Operating System | Architecture | Download Link |
-| :--- | :--- | :--- |
-| **Windows** | 64-bit (x64) | [Download for Windows](https://github.com/Kailashw/DZClip/releases/download/v1.0.0/dzclip-windows-amd64.exe) |
-| **macOS** | Intel (x64) / Apple Silicon (M1/M2/M3) | [Download for macOS](https://github.com/Kailashw/DZClip/releases/download/v1.0.0/dzclip-darwin.dmg) |
-| **Linux** | 64-bit (x64) | [Download for Linux](https://github.com/Kailashw/DZClip/releases/download/v1.0.0/dzclip-linux-amd64.tar.gz) |
+| Operating System | Architecture | File Size | Download Link |
+| :--- | :--- | :--- | :--- |
+| **Windows** | x64 / Standard | 155 MB | [Download DZClip.Setup.0.1.0.exe](https://github.com/Kailashw/DZClip/releases/download/v1.0.0/DZClip.Setup.0.1.0.exe) |
+| **macOS** | Apple Silicon (M1/M2/M3/M4) | 185 MB | [Download DZClip-0.1.0-arm64.dmg](https://github.com/Kailashw/DZClip/releases/download/v1.0.0/DZClip-0.1.0-arm64.dmg) |
 
 > 💡 *Note: If you are on macOS and encounter a "Developer Cannot be Verified" warning, you can bypass it by right-clicking the app, selecting **Open**, and confirming.*
 
