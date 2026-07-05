@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DZClip</title>
+    <!--
+      No CSP meta here on purpose. In dev, Vite needs inline scripts + a
+      websocket for HMR, so a strict CSP would break `npm run dev`. For the
+      production build, vite.config.ts injects a strict CSP (see
+      electronRendererFix) that also allows the data: image URLs used for
+      image-clipboard thumbnails.
+    -->
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
